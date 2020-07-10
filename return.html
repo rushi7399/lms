@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+</head>
+<body>
+<div class="topnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="get.html">Borrow Books</a>
+  <a href="return.html">Return Books</a>
+  <a href="searchn.html">Search Books</a>
+  <a href="logint.html">Teacher's Login</a>
+  <a href="logins.html">Student's Login</a>
+  <a href="Help.html">Help</a>
+
+  
+</div>
+<style>
+body {
+background-image: url(1.jpg);
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+</style>
+<body>
+
+<h3 align="center" color:red>Returning Section</h3>
+
+<div>
+  <form action="/action_page.php">
+    <label for="bname"><b>Regitration Number/UID</b></label>
+    <input type="text" id="bname" name="bookname" placeholder="Your Registration Number..">
+
+    <label for="fname"><b>Book Name</b></label>
+    <input type="text" id="fname" name="firstname" placeholder="Book's name..">
+
+    <label for="lname"><b>Boook ID Number</b></label>
+    <input type="text" id="lname" name="lastname" placeholder="Enter Book Id..">
+
+  
+    </select>
+  
+    <input type="submit" value="Return Book">
+  </form>
+</div>
+
+</body>
+</html>
